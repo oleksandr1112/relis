@@ -141,3 +141,55 @@ nav{
     font-size: 14px;
     
 }
+.coments {
+    padding: 60px;
+    display: flex;
+    flex-direction: column;
+    
+    justify-content: space-around;
+    gap: 26px;
+    
+
+}
+.coments_div {
+    background-color: #EAEAEA;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 60px;
+    align-items: center;
+    
+}
+.coments1{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+
+}
+.your_coment{
+    display: flex;
+    width: 90%;
+    
+}
+.your_coment_text{
+    background-color: #FFFFFF;
+    padding: 33px;
+    border-radius: 50px 0px 0px 50px;
+    text-align: start;
+    width: 90%;
+    
+
+}
+.send{
+    background-color: #9AA6B2;
+    border-radius: 0px 50px 50px 0px;
+    text-align: end;
+    width: 10%;
+}
+.coments_text{
+    font-size: 48px;
+    text-align: center;
+
+}
