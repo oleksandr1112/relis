@@ -72,4 +72,51 @@ nav{
 .banner_h3{
     font-size: 32px;
 }
+.catalog {
+    background-color: #D9EAFD;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 44px;
+    
+
+    height:90vh;
+
+}
+.catalog_cards {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 60%;
+    width: 100%;
+
+}
+.catalog_card {
+    background-color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    padding: 20px;
+    height: 100%;
+
+
+}
+.catalog_name{
+    font-size: 64px;
+}
+.catalog_btn {
+    background-color: #9AA6B2;
+    color: #FFFFFF;
+    padding: 28px;
+    border-radius: 10px;
+    font-size: 20px;
+}
+.space{
+    font-size: 20px;
+}
+.name {
+    font-size: 36px;
+}
 
