@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Just+Another+Hand&family=Pacifico&display=swap');
+
+*{
+    margin: 0;
+}
+a{
+    text-decoration: none;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+header {
+    background-color: #BCCCDC;
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    padding: 13px 82px; 
+   
+    
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    width: 60%;
+}
+.logo{
+    background-color: #9AA6B2;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.logo_img{
+    width: 80%;
+    height: 80%;
+}
+
+.link{
+    color: white;
+    background-color: #9AA6B2;
+    border-radius: 50px;
+    padding: 15px 41px;
+
+}
+.banner{
+    height:90vh;
+    background-image: url(img/bg.png);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 54px;
+    box-shadow: inset 0px 58px 88.6px #D1DCE7;
+
+}
+.banner_text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+
+}
+.banner_h1{
+    font-size: 64px;
+    font-family: Pacifico;
+}
+.banner_h3{
+    font-size: 32px;
+}
+
