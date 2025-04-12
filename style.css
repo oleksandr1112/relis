@@ -119,4 +119,25 @@ nav{
 .name {
     font-size: 36px;
 }
+.about_us {
+    background-color: #BCCCDC;
+    padding: 60px;
+    display: flex;
+    justify-content: space-around;
+    height:90vh;
 
+}
+.contaner {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    
+}
+.about_us_text{
+    font-size: 96px;
+    text-align: center;
+}
+.about_us_p{
+    font-size: 14px;
+    
+}
