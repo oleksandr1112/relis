@@ -22,9 +22,11 @@ header {
 }
 nav{
     display: flex;
-    justify-content: space-between;
+    gap: 50px;
+    justify-content: end;
     width: 60%;
 }
+
 .logo{
     background-color: #9AA6B2;
     border-radius: 50px;
@@ -44,6 +46,7 @@ nav{
     border-radius: 50px;
     padding: 15px 41px;
     transition: 0.3s all;
+    
 
 }
 .link:hover{

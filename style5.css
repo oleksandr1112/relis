@@ -23,8 +23,9 @@ header {
 }
 nav{
     display: flex;
-    justify-content: space-between;
+    justify-content: end;
     width: 60%;
+    gap: 50px;
 }
 .logo{
     background-color: #9AA6B2;
