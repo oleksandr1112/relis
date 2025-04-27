@@ -54,7 +54,7 @@ nav{
 .link:hover{
     background-color: #ffffff;
     color: black;
-    transition: 0.3s all;
+    
 }
 .banner{
     height:90vh;
