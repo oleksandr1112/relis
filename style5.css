@@ -59,6 +59,7 @@ nav{
     border-radius: 10px;
     font-size: 20px;
     text-align: center;
+    border: none;
 }
 .contaner{
     display: flex;
