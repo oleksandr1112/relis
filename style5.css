@@ -94,3 +94,33 @@ main{
 .btn{
     transition: 0.3s all;
 }
+.contaner_goods{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: 10px solid #9AA6B2;
+    padding: 20px
+
+}
+.div_h1_and_number_div_goods{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+
+}
+.number_div{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 10px;
+    
+}
+.number{
+    font-size: 40px;
+    padding: 20px;
+    border: 5px solid #9AA6B2;
+}
+.h1_goods{
+    font-size: 45px;
+}
