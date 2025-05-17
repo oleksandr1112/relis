@@ -75,6 +75,11 @@ nav{
     border-radius: 50px;
     text-align: end;
     transition: 0.1s all;
+    
+}
+.cross_a{
+    display: block;
+    width: fit-content;
 }
 .cross:hover{
     
@@ -112,7 +117,7 @@ main{
 }
 .number_div{
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
     gap: 10px;
     
@@ -121,6 +126,7 @@ main{
     font-size: 40px;
     padding: 20px;
     border: 5px solid #9AA6B2;
+    width: 10%;
 }
 .h1_goods{
     font-size: 45px;
