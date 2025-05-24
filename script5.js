@@ -1,13 +1,16 @@
-let main = document.querySelector('main')
+let btn_end = document.querySelector('.btn_end')
 let contaner = document.querySelector('.contaner')
+function end_buy(){
+    btn_end.style.background = 'white';
+    btn_end.style.color = '#9AA6B2';
+    btn_end.style.border = '5px solid #9AA6B2';
+    btn_end.innerHTML = 'КОШИК ПУСТИЙ';
+    btn_end.style.pointerEvents = 'none';
 
-if( contaner.innerHTML != ''){
-    main.inneHTML += `<button class="btn_end btn" >ОФОРМИТИ ЗАМОВЛЕННЯ</button>`
-    
 }
 if(contaner.innerHTML == ''){
-    let btn_end = document.querySelector('.btn_end')
-    btn_end.style.display ='none'
+    
+    end_buy()
 }
 let number = document.querySelectorAll('.number')
 let minus = document.querySelectorAll('.minus')
@@ -35,7 +38,13 @@ delete_list.forEach(function(delete_btn){
     delete_btn.addEventListener('click', function(){
         
         const closest = delete_btn.closest('.contaner_goods')
-        closest.style.display = 'none'
+        closest.remove();
+        let contaner = document.querySelector('.contaner')
+        // console.log(document.querySelector('.contaner_goods'));
+        if( document.querySelector('.contaner_goods') == null){
+            end_buy()
+        }
 
     })
 })
+// end_buy()
